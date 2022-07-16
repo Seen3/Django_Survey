@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+body {
+    background: white url("images/download.jpg") no-repeat;
+    font-family: 'Happy Monkey', cursive;
+}
+input[type="radio"]{
+    padding: 48px 64px;
+    border-radius: 16px;
+    background: #ffee00;
+    box-shadow:
+      4px 4px 4px 0px #ff0000 inset,
+      -4px -4px 4px 0px #fbff00 inset;
+}
+input[type="radio"]:checked{
+    box-shadow:
+    4px 4px 4px 0px #2bff00 inset,
+    -4px -4px 4px 0px #fbff00 inset;
+}
+fieldset{
+    border: 3em solid #290100;
+    padding-top: 1em;
+    background-color: #290100;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    color: #e9e50d;
+    font-size: 1rem;
+}
+label{
+    font-size: 3em;
+}
+input[type="submit"]{
+    margin-top: 2em;
+    background-color: #640200;
+    color: #000000;
+    text-shadow: 1px 1px 0px rgb(174, 255, 136);
+    padding: 10px 20px 12px 20px;
+
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.62) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.62)), color-stop(100%,rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0.62) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9effffff', endColorstr='#00ffffff',GradientType=0 );
+    font-family: 'Happy Monkey', cursive;
+    border-radius: 20px;
+    position: relative;
+    left:48vw;
+}
+input[type="submit"]:active{
+    text-shadow: 1px 1px 3px rgb(32, 99, 1);
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+li a {
+    text-decoration: none;
+    background: transparent;
+    border: calc(5 * 1px) solid #AF6E13;
+    box-shadow: calc(8 * 1px) calc(8 * 1px) 0 #888;
+    color: #AF6E13;
+    cursor: pointer;
+    font-size: calc(3 * 1rem);
+    font-weight: bold;
+    outline: transparent;
+    padding: calc(8 * 1px) calc(16 * 1px);
+    transition: box-shadow 0.15s ease;
+    line-height: 2.5;
+    background-color: #290100;
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+}
+
+li a:hover {
+    box-shadow: calc(8 / 2 * 1px) calc(8 / 2 * 1px) 0 #888;
+}
+
+li a:active {
+    box-shadow: 0 0 0 #888;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+body {
+    background: white url("images/download.jpg") no-repeat;
+    font-family: 'Happy Monkey', cursive;
+}
+h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3em;
+    background-image: conic-gradient(#16aa60, #082891, #db1a00);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+
